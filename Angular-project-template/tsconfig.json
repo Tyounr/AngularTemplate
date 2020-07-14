@@ -7,17 +7,5 @@
     {
       "path": "./tsconfig.spec.json"
     }
-  ],
-  "compilerOptions": {
-    "baseUrl": "./",
-    "paths": {
-      "@app/*": [
-        "src/app/*"
-      ],
-      "@shared/*": [
-        "src/shared/*"
-      ]
-      //TODO: add more path aliases to use imports easier.
-    }
-  }
+  ]
 }

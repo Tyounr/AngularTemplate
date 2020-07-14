@@ -106,7 +106,8 @@ This guide is based on the [Getting started guide from Netlify CLI](https://docs
 
 ## Useful extra's
 
-* http://botmap.surge.sh/ to crawl pages on the SPA
+* [http://botmap.surge.sh/](http://botmap.surge.sh/) to crawl pages ofe the SPA (Single Page Application).
+* [Notepad++](https://notepad.plus/) is a useful notepad that adds more functions over the standard notepad on your Windows device.
 
 ## Useful extensions for Visual Studio Code
 
