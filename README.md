@@ -3,7 +3,7 @@
 This application is a work in progress to become the perfect template of whatever your Angular web application needs to be. It includes PWA and Angular Material. The styling used is SCSS, but it's explained down here how you could change this.
 
 ## Frontend
-* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
+* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
 
 ### Built With
 
@@ -11,37 +11,33 @@ This application is a work in progress to become the perfect template of whateve
 
 ### First time starting up
 
+* Make sure that you have [Node.JS](https://nodejs.org/en/download/) installed.
+* For some packages it might be necessary to have [Git](https://git-scm.com/downloads) installed.
+* Install the [Angular CLI](https://cli.angular.io/) with the `npm i -g @angular/cli`.
 * Execute the `npm install` command, this wil install all the dependencies and create the `node_modules` folder.
-
-### Development server
-
-Run `ng serve -o` for a dev server. The `-o` will automatically open the browser. The app will automatically reload if you change any of the source files. Errors can be seen in the console.
-
-### Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+* Run `ng serve -o` for a dev server. The `-o` will automatically open the browser. The app will automatically reload if you change any of the source files. Errors can be seen in the console.
 
 ### Build
 
-Run `ng build --prod` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build. You can view the working version of the build on `http-server -p 8080 -c-1 .\dist\your-projectName\`. This is only necessary to test the PWA or to build your project when you want to put it on a hosting.
+Run `ng build --prod` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build. You can view the working version of the build on `http-server -p 8080 -c-1 .\dist\your-projectName\`. This is only necessary to test the [PWA](https://angular.io/guide/service-worker-getting-started) or to build your project when you want to put it on a hosting.
 
-### Running unit tests
+**NOTE**: It's not useful to use the `--watch=true` flag for the build command because this is not compatible with [PWA](https://angular.io/guide/service-worker-getting-started).
+
+### Running tests
+
+#### Unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-### Running end-to-end tests
+#### End-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-### Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
 ## FAQ
 
-### How to use Angular Material?
+### How to use Angular Material in this template?
 
-There's an AngularMaterialModule added. It imports and exports all the components from the Angular Material dependency. Whenever you want to use Angular Material, you can simply add `AngularMaterialModule` to the `imports` array from the module that will be using Angular Material. In this template it's added to `app.module.ts`.
+There's an `AngularMaterialModule` added. It imports and exports all the components from the [Angular Material](https://material.angular.io/) dependency. Whenever you want to use Angular Material, you can simply add `AngularMaterialModule` to the `imports` array from the module that will be using Angular Material. In this template it's added to `app.module.ts`.
 
 ### How to change to CSS / SASS / LESS / Stylus?
 
@@ -59,6 +55,8 @@ The PWA dependency is already added to this project. However, if you're stuck so
 
 ### How do I put my project up on Github pages?
 
+### How do I put up my project on Netlify?
+
 ## Useful extra's
 
 * http://botmap.surge.sh/ to crawl pages on the SPA
@@ -69,7 +67,7 @@ The PWA dependency is already added to this project. However, if you're stuck so
 
 ## Authors
 
-* **Your name** - *Frontend developer* - [Tyounr](https://github.com/Tyounr)
+* **Ruben Szekér** - *Frontend developer* - [Tyounr](https://github.com/Tyounr)
 
 ## License
 
