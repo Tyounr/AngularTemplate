@@ -35,6 +35,40 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+### Best practices to keep in mind whils programming in Angular
+
+A very detailed, up-to-date guide on how to program in Angular can be found in the [Angular offical coding style guide](https://angular.io/guide/styleguide).
+
+* Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
+* Make use of the Angular CLI.
+* Avoid comments in code ﬁles.
+* Make correct use of the RxJS library.
+* Use path aliases for the imports.
+* Avoid the ’any’-datatype within TypeScript programming
+* Do follow a pattern that describes the symbol’s feature then its type. The recommended pattern is `feature.type.ts`.
+* Separate ﬁle names with dots and dashes
+* Use dashed-case or kebab-case for naming the element selectors of components.
+* Unit test ﬁles should contain the `spec`-sufﬁx in the test ﬁles.
+* End-to-end test ﬁles should use the `e2e`-sufﬁx instead. 
+* Use consistent names for services.
+* Be consistent with the ﬁle structure conventions.
+* Apply the SRP (Single Responsibility Principle) throughout a project.
+* Deﬁne small functions (no more than 75 lines of code).
+* Directive (components and other directives) selectors should be lowercase and have a custom preﬁx that identiﬁes the feature area of the application.
+* Pipe names should use PascalCase.
+* Angular’s design is made for one asset per ﬁle.
+* Every ﬁle that is written by the team goes under the `src`-folder and every other script that comes from a third party should be stored in another folder.
+* Do extract templates and styles into a separate ﬁle, when more than 3 lines.
+* Make use of the `@Output`- and `@Input`-decorators for properties of a component.
+* Do not add the `on` preﬁx for output properties. 
+* Place members in a consistent sequence.
+* Delegate complex component logic to services.
+* Respect the LIFT design principle .
+* * Locate code quickly.
+* * Identify the code.
+* * Keep the Flattest structure.
+* * Try to be DRY (Don't Repeat Yourself).
+
 ## FAQ
 
 ### How to use Angular Material in this template?
