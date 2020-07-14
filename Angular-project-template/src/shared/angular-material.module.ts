@@ -37,7 +37,7 @@ import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatTooltipModule } from "@angular/material/tooltip";
 import { MatTreeModule } from "@angular/material/tree";
 
-const components = [
+const components: any[] = [
   MatAutocompleteModule, //https://material.angular.io/components/autocomplete/api
   MatBadgeModule, //https://material.angular.io/components/badge/api
   MatBottomSheetModule, //https://material.angular.io/components/bottom-sheet/api
