@@ -11,6 +11,8 @@ This application is a work in progress to become the perfect template of whateve
 
 ### First time starting up
 
+**NOTE**: For a Windows environment, make sure to execute the `Set-ExecutionPolicy ByPass` in Powershell as administrator on your device.
+
 * Make sure that you have [Node.JS](https://nodejs.org/en/download/) installed.
 * For some packages it might be necessary to have [Git](https://git-scm.com/downloads) installed.
 * Install the [Angular CLI](https://cli.angular.io/) with the `npm i -g @angular/cli`.
@@ -53,9 +55,20 @@ The PWA dependency is already added to this project. However, if you're stuck so
 
 ### How to get my authentication to work?
 
-### How do I put my project up on Github pages?
+### How do I put my project on Github pages?
 
-### How do I put up my project on Netlify?
+### How do I put my project on Netlify?
+
+This guide is based on the [Getting started guide from Netlify CLI](https://docs.netlify.com/cli/get-started/).
+
+* First of all, execute the `npm i netlify-cli -g` commando to install the [Netlify CLI](https://docs.netlify.com/cli/get-started/).
+* Execute the command ``netlify deploy --dir="dist/{your project folder's name}" --prod` to put your Angular website online.
+* * The first time executing this command you'll have to authorize the [Netlify CLI](https://docs.netlify.com/cli/get-started/) by logging in in your standard brower.
+* * Nextly you'll have to link your project to a site on netlify and assign a team, as told by the CLI.
+* * Choose a site name.
+* * Your site will now be put online.
+
+**NOTE**: The version that is put online is from your last `ng build`.
 
 ## Useful extra's
 
@@ -63,7 +76,9 @@ The PWA dependency is already added to this project. However, if you're stuck so
 
 ## Useful extensions for Visual Studio Code
 
-* **TODO Tree** by *Name* - Useful to set TODOs all over your project and locat them easily
+* **Angular Snippets (Version 9)** by *John Papa* - Allows you to use snippets so that you can program faster.
+* **Prettier** by *Prettier* - Useful to format your documents whilst coding.
+* **TODO Tree** by *Gruntfuggly* - Useful to set TODOs all over your project and locat them easily.
 
 ## Authors
 
