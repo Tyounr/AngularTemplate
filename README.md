@@ -1,8 +1,11 @@
 # Angular project template
 
-This application is a work in progress to become the perfect template of whatever your Angular web application needs to be. It includes PWA and Angular Material. The styling used is SCSS, but it's explained down here how you could change this.
+This application is a work in progress to become the perfect template of whatever the Angular web application needs to be. Standard styling (and how to change it), used dependencies and other dependencies that might prove themselves useful can all be found in this `README`.
 
 ## Frontend
+
+Since Angular is a frontend framework, it will only contain dependencies, code and information for frontend development.
+
 * This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
 
 ### Built With
@@ -35,11 +38,34 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+### Dependencies that are in this project
+
+* [@angular/material](https://material.angular.io/guide/getting-started) for easier UI creation
+* [@angular/google-maps](https://github.com/angular/components/tree/master/src/google-maps), from [Angular Components team](https://github.com/angular/components), to easier work with the [Google Maps API](https://cloud.google.com/maps-platform/).
+* [@angular/youtube-player](https://www.npmjs.com/package/@angular/youtube-player), from [Angular Components team](https://github.com/angular/components), to easier work with the [YouTube player API](https://developers.google.com/youtube/iframe_api_reference).
+* [ngx-meta](https://www.npmjs.com/package/@ngx-meta/core) to easier implement SEO support in your SPA.
+
+#### Other dependencies that might be useful to add for your project
+
+* [angular-epic-spinners](https://github.com/hackafro/angular-epic-spinners) to have animated loaders.
+* [AngularFire](https://www.npmjs.com/package/@angular/fire) to work with [Firebase](https://firebase.google.com/) in Angular.
+* [apollo-angular](https://www.apollographql.com/docs/angular/) to easily work with [GraphQL](https://graphql.org/).
+* [Cloudinary](https://cloudinary.com/documentation/cloudinary_get_started) is a SaaS for managing media assets.
+* [ng2-file-upload](https://github.com/valor-software/ng2-file-upload) to easier work with file uploading.
+* [ng2-pdf-viewer](https://www.npmjs.com/package/ng2-pdf-viewer) to visualize PDFs easily and user friendly.
+* [ng-bootstrap](https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap) to work with bootstrap inside of Angular.
+* [ngx-auth](https://www.npmjs.com/package/ngx-auth) to easily work with authentication.
+* [ngx-charts](https://github.com/swimlane/ngx-charts) to easily create charts.
+* [ngx-cache](https://github.com/fulls1z3/ngx-cache) to easier implement caching in a SPA.
+* [ngx-moment](https://github.com/urish/ngx-moment) to easier manipulate time using pipes.
+* [ngx-pipes](https://github.com/danrevah/ngx-pipes) adds more pipes.
+* [ngx-translate](https://www.npmjs.com/package/@ngx-translate/core) to create a multilangual SPA.
+
 ### Best practices to keep in mind whils programming in Angular
 
 A very detailed, up-to-date guide on how to program in Angular can be found in the [Angular offical coding style guide](https://angular.io/guide/styleguide).
 
-* Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
+* "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live." - Woods
 * Make use of the Angular CLI.
 * Avoid comments in code ﬁles.
 * Make correct use of the RxJS library.
@@ -96,24 +122,28 @@ The PWA dependency is already added to this project. However, if you're stuck so
 This guide is based on the [Getting started guide from Netlify CLI](https://docs.netlify.com/cli/get-started/).
 
 * First of all, execute the `npm i netlify-cli -g` commando to install the [Netlify CLI](https://docs.netlify.com/cli/get-started/).
-* Execute the command ``netlify deploy --dir="dist/{your project folder's name}" --prod` to put your Angular website online.
+* Execute the command ``netlify deploy --dir="dist/{the project folder's name}" --prod` to put the Angular website online.
 * * The first time executing this command you'll have to authorize the [Netlify CLI](https://docs.netlify.com/cli/get-started/) by logging in in your standard brower.
-* * Nextly you'll have to link your project to a site on netlify and assign a team, as told by the CLI.
+* * Nextly you'll have to link the project to a site on netlify and assign a team, as told by the CLI.
 * * Choose a site name.
-* * Your site will now be put online.
+* * The SPA will now be put online (mosly) for testing purposes. However, it is also possible to have put the SPA online this way.
 
-**NOTE**: The version that is put online is from your last `ng build`.
+**NOTE**: The SPA's version that is put online is from the last `ng build`.
 
 ## Useful extra's
 
-* [http://botmap.surge.sh/](http://botmap.surge.sh/) to crawl pages ofe the SPA (Single Page Application).
+* [Angular Cheat sheet](https://angular.io/guide/cheatsheet)
+* [Angular resources overview](https://angular.io/resources?category=development) to get a full overview of most, well-supported resources that can be used with Angular.
+* [Augury](https://chrome.google.com/webstore/detail/augury/elgalmkoelokbchhkhacckoklkejnhcd) to easily debug the Angular SPA.
+* [botmap.surge.sh](http://botmap.surge.sh/) to crawl pages ofe the SPA (Single Page Application).
+* [Flexbox Cheat sheet](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Notepad++](https://notepad.plus/) is a useful notepad that adds more functions over the standard notepad on your Windows device.
 
 ## Useful extensions for Visual Studio Code
 
 * **Angular Snippets (Version 9)** by *John Papa* - Allows you to use snippets so that you can program faster.
-* **Prettier** by *Prettier* - Useful to format your documents whilst coding.
-* **TODO Tree** by *Gruntfuggly* - Useful to set TODOs all over your project and locat them easily.
+* **Prettier** by *Prettier* - Useful to format documents whilst coding.
+* **TODO Tree** by *Gruntfuggly* - Useful to set TODOs all over the project and locate them easily.
 
 ## Authors
 
