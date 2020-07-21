@@ -4,7 +4,8 @@ This application is a work in progress to become the perfect template of whateve
 
 ## How to get started?
 
-* To start using this template, it is recommend to download this template as a `.zip` file so that you can set up your own repository using this template whitout interfering with this repository.
+* Click on `Use this template` on [GitHub](https://github.com/Tyounr/AngularTemplate).
+* Rename the project by renaming the project folder and every occurence of `angular-project-template` by your prefered name.
 
 ### First time starting up
 
