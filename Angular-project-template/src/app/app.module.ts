@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { SharedModule } from '../shared/shared.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [ AppComponent ],
@@ -13,7 +14,7 @@ import { SharedModule } from '../shared/shared.module';
     BrowserModule, //Necessary to run the application
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }), //Necessary for PWA
     SharedModule, //Shared modules
-    AppRoutingModule
+    AppRoutingModule, FontAwesomeModule
   ],
   bootstrap: [ AppComponent ]
 })

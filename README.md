@@ -1,16 +1,10 @@
 # Angular project template
 
-This application is a work in progress to become the perfect template of whatever the Angular web application needs to be. Standard styling (and how to change it), used dependencies and other dependencies that might prove themselves useful can all be found in this `README`.
+This application is a work in progress to become the perfect template of whatever the Angular web application needs to be. Standard styling (and how to change it), used dependencies and other dependencies that might prove themselves useful can all be found in this `README`. Since Angular is a frontend framework, it will only contain dependencies, code and information for frontend development.
 
-## Frontend
+## How to get started?
 
-Since Angular is a frontend framework, it will only contain dependencies, code and information for frontend development.
-
-* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
-
-### Built With
-
-* [Visual Studio Code](https://code.visualstudio.com/Download) - Used for Angular - Frontend
+* To start using this template, it is recommend to download this template as a `.zip` file so that you can set up your own repository using this template whitout interfering with this repository.
 
 ### First time starting up
 
@@ -19,12 +13,17 @@ Since Angular is a frontend framework, it will only contain dependencies, code a
 * Make sure that you have [Node.JS](https://nodejs.org/en/download/) installed.
 * For some packages it might be necessary to have [Git](https://git-scm.com/downloads) installed.
 * Install the [Angular CLI](https://cli.angular.io/) with the `npm i -g @angular/cli`.
-* Execute the `npm install` command, this wil install all the dependencies and create the `node_modules` folder.
+* Execute the `npm install` command whilst being located in the project folder with the terminal that you're using, this wil install all the dependencies and create the `node_modules` folder.
 * Run `ng serve -o` for a dev server. The `-o` will automatically open the browser. The app will automatically reload if you change any of the source files. Errors can be seen in the console.
+
+### Built With
+
+* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
+* [Visual Studio Code](https://code.visualstudio.com/Download) - Used for Angular - Frontend
 
 ### Build
 
-Run `ng build --prod` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build. You can view the working version of the build on `http-server -p 8080 -c-1 .\dist\your-projectName\`. This is only necessary to test the [PWA](https://angular.io/guide/service-worker-getting-started) or to build your project when you want to put it on a hosting.
+Run `ng build --prod` to build the project. The build artifacts will be stored in the `/dist/` directory. Use the `--prod` flag for a production build. You can view the working version of the build on `http-server -p 8080 -c-1 .\dist\your-projectName\`. This is only necessary to test the [PWA](https://angular.io/guide/service-worker-getting-started) or to build your project when you want to put it on a hosting.
 
 **NOTE**: It's not useful to use the `--watch=true` flag for the build command because this is not compatible with [PWA](https://angular.io/guide/service-worker-getting-started).
 
@@ -42,6 +41,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 * [@angular/material](https://material.angular.io/guide/getting-started) for easier UI creation
 * [@angular/pwa](https://angular.io/guide/service-worker-getting-started) to convert your web application to a [PWA](https://en.wikipedia.org/wiki/Progressive_web_application).
+* [@fortawesome/angular-fontawesome](https://www.npmjs.com/package/@fortawesome/angular-fontawesome) to add more icons from [fontawesome.com](https://fontawesome.com/6?next=%2F) to the standard [Angular Material icons](https://material.io/resources/icons/?style=baseline). By default all the free-to-use icons are added.
 * [http-server](https://www.npmjs.com/package/http-server) to easily test your PWA.
 * [ngx-meta](https://www.npmjs.com/package/@ngx-meta/core) to easier implement SEO support in your SPA.
 
@@ -51,17 +51,23 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 * [@angular/google-maps](https://github.com/angular/components/tree/master/src/google-maps), from [Angular Components team](https://github.com/angular/components), to easier work with the [Google Maps API](https://cloud.google.com/maps-platform/).
 * [@angular/youtube-player](https://www.npmjs.com/package/@angular/youtube-player), from [Angular Components team](https://github.com/angular/components), to easier work with the [YouTube player API](https://developers.google.com/youtube/iframe_api_reference).
 * [angular-epic-spinners](https://github.com/hackafro/angular-epic-spinners) to have animated loaders.
+* [angular-calendar](https://angular-calendar.com/#/kitchen-sink) to work with calendars.
 * [AngularFire](https://www.npmjs.com/package/@angular/fire) to work with [Firebase](https://firebase.google.com/) in Angular.
 * [apollo-angular](https://www.apollographql.com/docs/angular/) to easily work with [GraphQL](https://graphql.org/).
 * [Cloudinary](https://cloudinary.com/documentation/cloudinary_get_started) is a SaaS for managing media assets.
+* [Dragula](https://github.com/valor-software/ng2-dragula) to easily implement drag and drops in your application.
 * [ng2-file-upload](https://github.com/valor-software/ng2-file-upload) to easier work with file uploading.
+* [ng2-notifications](https://github.com/alexcastillo/ng2-notifications) to get easily started with push notificiations.
 * [ng2-pdf-viewer](https://www.npmjs.com/package/ng2-pdf-viewer) to visualize PDFs easily and user friendly.
 * [ng-bootstrap](https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap) to work with bootstrap inside of Angular.
 * [ngx-auth](https://www.npmjs.com/package/ngx-auth) to easily work with authentication.
 * [ngx-charts](https://github.com/swimlane/ngx-charts) to easily create charts.
 * [ngx-cache](https://github.com/fulls1z3/ngx-cache) to easier implement caching in a SPA.
 * [ngx-moment](https://github.com/urish/ngx-moment) to easier manipulate time using pipes.
+* [ngx-lazyload-image](https://github.com/tjoskar/ng-lazyload-image) to increase performance of images in your application.
 * [ngx-pipes](https://github.com/danrevah/ngx-pipes) adds more pipes.
+* [ngx-spinner](https://www.npmjs.com/package/ngx-spinner) to have spinner loading animations.
+* [ngx-toastr](https://www.npmjs.com/package/ngx-toastr) to add [toasts](https://ux.stackexchange.com/questions/11998/what-is-a-toast-notification) to your application.
 * [ngx-translate](https://www.npmjs.com/package/@ngx-translate/core) to create a multilangual SPA.
 
 ### Best practices to keep in mind whils programming in Angular
