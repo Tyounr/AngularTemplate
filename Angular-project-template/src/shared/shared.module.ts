@@ -12,15 +12,15 @@ import { ReactiveFormsModule } from "@angular/forms";
 //HTTP calls
 import { HttpClientModule } from "@angular/common/http";
 
-//Animations
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+//Fontawesome
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 const modules = [
   AngularMaterialModule, //To make use of ALL features of Angular Material
-  BrowserAnimationsModule, //To support animations
   CommonModule, //To make use of all the basic Angular features
   HttpClientModule, //To make use of HTTP calls
-  ReactiveFormsModule, //To make use of Reactive forms
+  ReactiveFormsModule, //To make use of Reactive forms,
+  FontAwesomeModule, //Font awesome module
 ];
 
 @NgModule({
