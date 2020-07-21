@@ -41,12 +41,15 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ### Dependencies that are in this project
 
 * [@angular/material](https://material.angular.io/guide/getting-started) for easier UI creation
-* [@angular/google-maps](https://github.com/angular/components/tree/master/src/google-maps), from [Angular Components team](https://github.com/angular/components), to easier work with the [Google Maps API](https://cloud.google.com/maps-platform/).
-* [@angular/youtube-player](https://www.npmjs.com/package/@angular/youtube-player), from [Angular Components team](https://github.com/angular/components), to easier work with the [YouTube player API](https://developers.google.com/youtube/iframe_api_reference).
+* [@angular/pwa](https://angular.io/guide/service-worker-getting-started) to convert your web application to a [PWA](https://en.wikipedia.org/wiki/Progressive_web_application).
+* [http-server](https://www.npmjs.com/package/http-server) to easily test your PWA.
 * [ngx-meta](https://www.npmjs.com/package/@ngx-meta/core) to easier implement SEO support in your SPA.
 
 #### Other dependencies that might be useful to add for your project
 
+* [@angular/localize](https://angular.io/guide/i18n#localizing-your-app) to work with localization and translations.
+* [@angular/google-maps](https://github.com/angular/components/tree/master/src/google-maps), from [Angular Components team](https://github.com/angular/components), to easier work with the [Google Maps API](https://cloud.google.com/maps-platform/).
+* [@angular/youtube-player](https://www.npmjs.com/package/@angular/youtube-player), from [Angular Components team](https://github.com/angular/components), to easier work with the [YouTube player API](https://developers.google.com/youtube/iframe_api_reference).
 * [angular-epic-spinners](https://github.com/hackafro/angular-epic-spinners) to have animated loaders.
 * [AngularFire](https://www.npmjs.com/package/@angular/fire) to work with [Firebase](https://firebase.google.com/) in Angular.
 * [apollo-angular](https://www.apollographql.com/docs/angular/) to easily work with [GraphQL](https://graphql.org/).
@@ -113,9 +116,7 @@ https://stylus-lang.com/
 
 The PWA dependency is already added to this project. However, if you're stuck somewhere, then check [this guide on alligator.io](https://alligator.io/angular/angular-pwa/).
 
-### How to get my authentication to work?
-
-### How do I put my project on Github pages?
+You can easily troubleshoot your errors in the `Application` tab under [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools). However, make sure that you're serving over http-server using the command `http-server -p 8080 -c-1 .\dist\{name of the project folder}` and have built your project with the production flag so `ng build --prod`.
 
 ### How do I put my project on Netlify?
 
