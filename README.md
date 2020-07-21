@@ -61,11 +61,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 * [ng2-notifications](https://github.com/alexcastillo/ng2-notifications) to get easily started with push notificiations.
 * [ng2-pdf-viewer](https://www.npmjs.com/package/ng2-pdf-viewer) to visualize PDFs easily and user friendly.
 * [ng-bootstrap](https://www.npmjs.com/package/@ng-bootstrap/ng-bootstrap) to work with bootstrap inside of Angular.
+* [ng-lazyload-image](https://github.com/tjoskar/ng-lazyload-image) to increase performance of images in your application.
 * [ngx-auth](https://www.npmjs.com/package/ngx-auth) to easily work with authentication.
 * [ngx-charts](https://github.com/swimlane/ngx-charts) to easily create charts.
 * [ngx-cache](https://github.com/fulls1z3/ngx-cache) to easier implement caching in a SPA.
 * [ngx-moment](https://github.com/urish/ngx-moment) to easier manipulate time using pipes.
-* [ngx-lazyload-image](https://github.com/tjoskar/ng-lazyload-image) to increase performance of images in your application.
 * [ngx-pipes](https://github.com/danrevah/ngx-pipes) adds more pipes.
 * [ngx-spinner](https://www.npmjs.com/package/ngx-spinner) to have spinner loading animations.
 * [ngx-toastr](https://www.npmjs.com/package/ngx-toastr) to add [toasts](https://ux.stackexchange.com/questions/11998/what-is-a-toast-notification) to your application.
