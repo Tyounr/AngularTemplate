@@ -48,6 +48,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 #### Other dependencies that might be useful to add for your project
 
+* [@angular/flex-layout](https://github.com/angular/flex-layout) to easily work with flexbox in Angular.
 * [@angular/localize](https://angular.io/guide/i18n#localizing-your-app) to work with localization and translations.
 * [@angular/google-maps](https://github.com/angular/components/tree/master/src/google-maps), from [Angular Components team](https://github.com/angular/components), to easier work with the [Google Maps API](https://cloud.google.com/maps-platform/).
 * [@angular/youtube-player](https://www.npmjs.com/package/@angular/youtube-player), from [Angular Components team](https://github.com/angular/components), to easier work with the [YouTube player API](https://developers.google.com/youtube/iframe_api_reference).
