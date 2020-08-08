@@ -11,6 +11,9 @@
       ],
       "@env/*": [
         "src/environments/*"
+      ],
+      "@node/*": [
+        "node_modules"
       ]
       //TODO: add more path aliases to use imports easier.
     },

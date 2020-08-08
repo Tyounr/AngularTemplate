@@ -15,12 +15,16 @@ import { HttpClientModule } from "@angular/common/http";
 //Fontawesome
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
+//Flex-layout
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 const modules = [
   AngularMaterialModule, //To make use of ALL features of Angular Material
   CommonModule, //To make use of all the basic Angular features
   HttpClientModule, //To make use of HTTP calls
   ReactiveFormsModule, //To make use of Reactive forms,
   FontAwesomeModule, //Font awesome module
+  FlexLayoutModule, //To use flex layout
 ];
 
 @NgModule({

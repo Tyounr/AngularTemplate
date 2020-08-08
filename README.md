@@ -40,6 +40,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ### Dependencies that are in this project
 
+* [@angular/flex-layout](https://github.com/angular/flex-layout) to easily work with flexbox in Angular.
 * [@angular/material](https://material.angular.io/guide/getting-started) for easier UI creation
 * [@angular/pwa](https://angular.io/guide/service-worker-getting-started) to convert your web application to a [PWA](https://en.wikipedia.org/wiki/Progressive_web_application).
 * [@fortawesome/angular-fontawesome](https://www.npmjs.com/package/@fortawesome/angular-fontawesome) to add more icons from [fontawesome.com](https://fontawesome.com/6?next=%2F) to the standard [Angular Material icons](https://material.io/resources/icons/?style=baseline). By default all the free-to-use icons are added.
@@ -48,7 +49,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 #### Other dependencies that might be useful to add for your project
 
-* [@angular/flex-layout](https://github.com/angular/flex-layout) to easily work with flexbox in Angular.
 * [@angular/localize](https://angular.io/guide/i18n#localizing-your-app) to work with localization and translations.
 * [@angular/google-maps](https://github.com/angular/components/tree/master/src/google-maps), from [Angular Components team](https://github.com/angular/components), to easier work with the [Google Maps API](https://cloud.google.com/maps-platform/).
 * [@angular/youtube-player](https://www.npmjs.com/package/@angular/youtube-player), from [Angular Components team](https://github.com/angular/components), to easier work with the [YouTube player API](https://developers.google.com/youtube/iframe_api_reference).
@@ -111,14 +111,6 @@ A very detailed, up-to-date guide on how to program in Angular can be found in t
 ### How to use Angular Material in this template?
 
 There's an `AngularMaterialModule` added. It imports and exports all the components from the [Angular Material](https://material.angular.io/) dependency. Whenever you want to use Angular Material, you can simply add `AngularMaterialModule` to the `imports` array from the module that will be using Angular Material. In this template it's added to `app.module.ts`.
-
-### How to change to CSS / SASS / LESS / Stylus?
-
-This template comes with my personal prefrence of SCSS. However, you can change it to whatever styling you'd like by executing the following steps.
-https://sass-lang.com/documentation/syntax#scss
-https://sass-lang.com/documentation/
-http://lesscss.org/
-https://stylus-lang.com/
 
 ### How to get my PWA up and running?
 
