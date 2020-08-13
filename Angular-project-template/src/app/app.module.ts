@@ -1,31 +1,31 @@
 import { NgModule } from '@angular/core';
 import { environment } from '../environments/environment';
 
-//Routing
+// Routing
 import { AppRoutingModule } from './app-routing.module';
 
-//App component
+// App component
 import { AppComponent } from './app.component';
 
-//PWA
+// PWA
 import { ServiceWorkerModule } from '@angular/service-worker';
 
-//Browser
+// Browser
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-//Shared module
+// Shared module
 import { SharedModule } from '../shared/shared.module';
 
-//Animations
+// Animations
 
 @NgModule({
   declarations: [ AppComponent ],
   imports: [
-    BrowserModule, //Necessary to run the application,
-    BrowserAnimationsModule, //To support animations
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }), //Necessary for PWA
-    SharedModule, //Shared modules
+    BrowserModule, // Necessary to run the application,
+    BrowserAnimationsModule, // To support animations
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }), // Necessary for PWA
+    SharedModule, // Shared modules
     AppRoutingModule,
   ],
   bootstrap: [ AppComponent ]

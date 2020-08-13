@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false
-  //TODO: add the URL of the production API here
-  //TODO: add any secret keys here
+  // TODO: add the URL of the production API here
+  // TODO: add any secret keys here
 };
 
 /*
