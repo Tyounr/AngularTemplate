@@ -101,10 +101,10 @@ A very detailed, up-to-date guide on how to program in Angular can be found in t
 * Place members in a consistent sequence.
 * Delegate complex component logic to services.
 * Respect the LIFT design principle .
-* * Locate code quickly.
-* * Identify the code.
-* * Keep the Flattest structure.
-* * Try to be DRY (Don't Repeat Yourself).
+    * Locate code quickly.
+    * Identify the code.
+    * Keep the Flattest structure.
+    * Try to be DRY (Don't Repeat Yourself).
 
 ## FAQ
 
