@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { environment } from '../environments/environment';
+import { environment } from '@env/environment';
 
 // Routing
 import { AppRoutingModule } from './app-routing.module';
@@ -15,7 +15,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Shared module
-import { SharedModule } from '../shared/shared.module';
+import { SharedModule } from '@shared/shared.module';
 
 // Animations
 
