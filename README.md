@@ -56,6 +56,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 * [angular-calendar](https://angular-calendar.com/#/kitchen-sink) to work with calendars.
 * [AngularFire](https://www.npmjs.com/package/@angular/fire) to work with [Firebase](https://firebase.google.com/) in Angular.
 * [apollo-angular](https://www.apollographql.com/docs/angular/) to easily work with [GraphQL](https://graphql.org/).
+* [certi-library](https://www.npmjs.com/package/certi-library) which is the custom Certinergie library.
 * [Cloudinary](https://cloudinary.com/documentation/cloudinary_get_started) is a SaaS for managing media assets.
 * [Dragula](https://github.com/valor-software/ng2-dragula) to easily implement drag and drops in your application.
 * [ng2-file-upload](https://github.com/valor-software/ng2-file-upload) to easier work with file uploading.
