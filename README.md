@@ -137,6 +137,7 @@ This guide is based on the [Getting started guide from Netlify CLI](https://docs
 * [Angular resources overview](https://angular.io/resources?category=development) to get a full overview of most, well-supported resources that can be used with Angular.
 * [Augury](https://chrome.google.com/webstore/detail/augury/elgalmkoelokbchhkhacckoklkejnhcd) to easily debug the Angular SPA.
 * [botmap.surge.sh](http://botmap.surge.sh/) to crawl pages ofe the SPA (Single Page Application).
+* [compodoc](https://compodoc.app/) to generate documentation for your application or library.
 * [Flexbox Cheat sheet](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Notepad++](https://notepad.plus/) is a useful notepad that adds more functions over the standard notepad on your Windows device.
 
