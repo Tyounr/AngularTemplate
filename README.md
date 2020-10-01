@@ -123,6 +123,7 @@ You can easily troubleshoot your errors in the `Application` tab under [Google C
 This guide is based on the [Getting started guide from Netlify CLI](https://docs.netlify.com/cli/get-started/).
 
 * First of all, execute the `npm i netlify-cli -g` commando to install the [Netlify CLI](https://docs.netlify.com/cli/get-started/).
+* Execute the command `netlify login` to authorize your netlify account.
 * Execute the command ``netlify deploy --dir="dist/{the project folder's name}" --prod` to put the Angular website online.
 * * The first time executing this command you'll have to authorize the [Netlify CLI](https://docs.netlify.com/cli/get-started/) by logging in in your standard brower.
 * * Nextly you'll have to link the project to a site on netlify and assign a team, as told by the CLI.
