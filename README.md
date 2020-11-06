@@ -72,7 +72,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 * [ngx-toastr](https://www.npmjs.com/package/ngx-toastr) to add [toasts](https://ux.stackexchange.com/questions/11998/what-is-a-toast-notification) to your application.
 * [ngx-translate](https://www.npmjs.com/package/@ngx-translate/core) to create a multilangual SPA.
 
-### Best practices to keep in mind whils programming in Angular
+### Best practices to keep in mind whilst programming in Angular
 
 A very detailed, up-to-date guide on how to program in Angular can be found in the [Angular offical coding style guide](https://angular.io/guide/styleguide).
 
