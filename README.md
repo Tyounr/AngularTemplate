@@ -144,6 +144,7 @@ This guide is based on the [Getting started guide from Netlify CLI](https://docs
 
 ## Useful extensions for Visual Studio Code
 
+* **Angular Language Service** by *Angular* - Gives intelligence in HTML templates
 * **Angular Snippets (Version 9)** by *John Papa* - Allows you to use snippets so that you can program faster.
 * **Prettier** by *Prettier* - Useful to format documents whilst coding.
 * **TODO Tree** by *Gruntfuggly* - Useful to set TODOs all over the project and locate them easily.
