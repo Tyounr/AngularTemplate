@@ -176,6 +176,20 @@
           "configurations": {
             "production": {}
           }
+        },
+        "app-shell": {
+          "builder": "@angular-devkit/build-angular:app-shell",
+          "options": {
+            "browserTarget": "Angular-project-template:build",
+            "serverTarget": "Angular-project-template:server",
+            "route": "shell"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "Angular-project-template:build:production",
+              "serverTarget": "Angular-project-template:server:production"
+            }
+          }
         }
       }
     }
