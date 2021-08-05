@@ -22,7 +22,7 @@ import { SharedModule } from '@shared/shared.module';
 @NgModule({
   declarations: [ AppComponent ],
   imports: [
-    BrowserModule, // Necessary to run the application,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }), // Necessary to run the application,
     BrowserAnimationsModule, // To support animations
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }), // Necessary for PWA
     SharedModule, // Shared modules
