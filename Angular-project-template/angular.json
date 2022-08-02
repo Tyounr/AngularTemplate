@@ -189,7 +189,6 @@
       }
     }
   },
-  "defaultProject": "Angular-project-template",
   "cli": {
     "analytics": false
   }
